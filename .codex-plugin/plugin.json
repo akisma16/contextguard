@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Adam KISMA"
+  },
+  "description": "Estime les tokens et le risque de saturation du contexte, alerte avant le seuil configurable et prépare la reprise fidèle des conversations ChatGPT.",
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Active ContextGuard pour cette conversation, seuil d'alerte à 25 % de contexte restant. Estime d'abord l'état sans inventer de métriques.",
+      "ContextGuard : estime le coût en tokens de mon prochain prompt et les risques de saturation.",
+      "ContextGuard : prépare une fiche complète de reprise de cette conversation."
+    ],
+    "developerName": "Adam KISMA",
+    "displayName": "ContextGuard",
+    "longDescription": "Estimation du coût des prompts, vérifications aux étapes clés des tâches longues, alerte indicative lorsque le contexte disponible devient faible, et création d'un dossier de reprise.",
+    "shortDescription": "Surveille le contexte estimé"
+  },
+  "keywords": [],
+  "name": "contextguard",
+  "skills": "./skills",
+  "version": "1.0.0"
+}
